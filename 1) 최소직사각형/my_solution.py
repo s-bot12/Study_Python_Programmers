@@ -1,5 +1,5 @@
 # -*- coding: cp949 -*-
-def compare(para1, para2) : # 비교 함수
+def compare(para1, para2) : # 쨘챰짹쨀 횉횚쩌철
 	global max_w;
 	global max_h; 
 	if para1 > max_w and para1 > max_h :
@@ -22,7 +22,7 @@ def compare(para1, para2) : # 비교 함수
 				max_h = para1;
 	return;
 
-def solution(sizes): #solution 함수 (실제 동작)
+def solution(sizes): #solution 횉횚쩌철 (쩍횉횁짝 쨉쩔��횤)
 	global max_w;
 	global max_h;
 	for i in range(len(sizes)) :
